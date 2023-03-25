@@ -40,8 +40,9 @@ div {
 
     font-size: 20px;
     color: #ffff;
-
-    height: 68px;
+    
+    max-height: auto;
+    min-height: 68px;
     background-color: #202F3C;
 }
 
