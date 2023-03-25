@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{ 
+    background-color: #101921;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#contentContainer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 70px;
+    height: 100vh;
+    background-color:#101921 ;
+
+    color: #ffff;
+}
+
+
+#headerSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+
+    font-size: 20px;
+    color: #ffff;
+
+    height: 68px;
+    background-color: #202F3C;
+}
+
+.header-section .left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+#headerName {
+    margin: 10px 10px 0 20px;
+}
+#headerLeftSection a {
+    font-size: 14px;
+    padding-top: 15px;
+    margin:0px 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+#headerLeftSection a:hover {
+    color: #18aa6d ;
+}
+
+.header-section .right-section {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.connectBtn {
+    color: #ffff;
+    border-radius: 5px;
+    padding: 7px 7px;
+    font-size: 14px;
+    background-color:#202f3c3d;
+    transition:background-color 0.5s;
+}
+
+.connectBtn:hover {
+    background-color:#101921 ;
+    cursor: pointer;
+}
+
+
+.header-section span {
+    color: #18aa6d;
+    font-weight: bold;
+}
+
+#headerName {
+    font-size: 30px;
+}
+
+
+#brandingSection {
+    height: 40vh;
+    background-color: #202f3c3d;
+}
+
+#brandingSection h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #18aa6d;
+}
+
+#brandingSection h2 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#brandingSection img {
+    padding-top: 10px;
+}
+
+
+#brandingSection button {
+    color: #ffff;
+    font-style: bold;
+
+    margin-top: 5px;
+    height: 40px;
+    min-width: 300px;
+    max-width: auto;
+
+    border-radius: 10px;
+    background-color: #18aa6d;
+    transition: background-color 0.5s;
+    
+}
+
+#brandingSection button:hover {
+    background-color: #1c6e4c;
+    cursor: pointer;
+}
+
+#aboutSection {
+    display: grid;
+    flex-shrink: 0;
+    justify-content: space-between;
+
+    padding: 10px 10px;
+    min-height: 30vh;
+    max-height: auto;
+    background-color: #202f3c80;
+}
+
+
+#infoSection {
+    padding-top: 10px;
+    min-height: 70vh;
+    max-height: auto;
+    background-color: #202f3c80;
+}
+
+#infoSection h2 {
+    margin-bottom: 10px;
+}
+
+.photo__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin: 0 15px 15px;
+}
+
+.album__img{
+    border-radius: 10px;
+    position: relative;
+}
+
+.album__img img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#contactSection {
+    min-height: 12vh;
+    max-height: auto;
+   
+    background-color: #202f3c80;
+}
+
+#footerSection {
+    padding: 5px 5px;
+
+    max-height: auto;
+    min-height: 20px;
+    background-color: #202f3c80;
+}
+
