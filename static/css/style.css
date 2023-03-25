@@ -199,3 +199,8 @@ div {
     background-color: #202f3c80;
 }
 
+@media only screen and (max-width: 600px){
+    .header-section a {
+        display: none;
+    }
+}
